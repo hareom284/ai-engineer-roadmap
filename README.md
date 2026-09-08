@@ -4,10 +4,11 @@ Started: 2026-09-09
 Goal: become a credible candidate for LLM/agent application engineer roles (RAG, agents, LLM integration) by shipping three evaluated, deployed projects.
 
 ## Documents
-1. [Resume & market review](01-resume-market-review.md) — why applications were failing and what the market requires
+1. [Market requirements & resume rules](01-resume-market-review.md) — what AI-engineer postings actually ask for
 2. [3-month plan](02-3-month-plan.md) — weekly overview
 3. [90-day daily plan](03-90-day-daily-plan.md) — day-by-day tasks
 4. [Learning log](LEARNING.md) — one line per day
+5. [Weekly reviews](reviews/) — one file per week, from [the template](reviews/TEMPLATE.md)
 
 ## Projects
 | Project | What | Repo | Live | Status |
@@ -45,6 +46,11 @@ Goal: become a credible candidate for LLM/agent application engineer roles (RAG,
 - [ ] Interview prep (Days 80–82)
 - [ ] Target list + 30 applications (Days 83–89)
 - [ ] Retrospective (Day 90)
+
+## How I use this repo
+- **Daily:** one commit, prefixed `day-NN:`, plus a row in `LEARNING.md`.
+- **Weekly:** one GitHub Issue per week with the day checkboxes; closed Sunday with a file in `reviews/`.
+- **Projects:** code lives in its own repo (linked above); this repo holds notes, eval numbers, and interview stories.
 
 ## Rules
 1. Commit every day.

@@ -1,22 +1,6 @@
-# Why You're Getting Screened Out — Resume & Market Review (Sept 2026)
+# Market Requirements & Resume Rules — AI Engineer (LLM Applications), Sept 2026
 
-## TL;DR
-- Rejections at screening come from two compounding causes: (1) a **positioning/credibility gap** — resume says "AI Builder" but shows only AI *coding tools* (Claude Code, Cursor, Copilot), no Python, no shipped LLM product, no RAG/agents/vector DB/evals; (2) a **visa/location filter** — Myanmar passport + Bangkok base means many Germany/EU/Singapore roles auto-filter before skills are read.
-- Full-stack profile is solid but stacked on **PHP/Laravel + Vue**, a mid-tier lane in Germany/Singapore; it travels well in UAE and Thailand.
-- Most realistic targets: **Thailand BOI/international companies, Dubai employer-sponsored roles, remote contractor roles for EU/US companies.**
-- Highest-leverage fix: **build and ship 2–3 real LLM/RAG/agent projects** with GitHub + live demo + evals, learn Python + FastAPI, rewrite the resume single-column and honest.
-
-## Key findings
-1. **"AI Builder" is hurting.** Screeners distinguish "uses AI coding assistants" from "builds AI products." AI-engineer resumes that score well name a specific model version and at least one evaluation tool; ~72% of resumes list no evaluation tooling. The current resume has none of the AI-engineer vocabulary.
-2. **No Python, no shipped LLM product.** Every posting surveyed requires production Python, LLM API integration, RAG with a named vector DB, agents/tool-calling, evals, FastAPI + Docker on a cloud. Fine-tuning is generally *not* required for application roles.
-3. **Laravel/PHP is a lower-demand lane** for Germany/Singapore (TypeScript/Node, Java, Go, Python dominate) but common in UAE and Thailand.
-4. **Visa filters:**
-   - Germany Blue Card 2026: €50,700 standard / €45,934.20 for IT shortage occupations; degree must be in anabin or use the 3-years-IT-experience route.
-   - Singapore EP: S$5,600/mo floor (S$6,000 from 2027) + COMPASS ≥40 points; likely ~30 points unless role is on the Shortage Occupation List or pays ~S$7,500+.
-   - UAE: employer-sponsored permit is accessible; Golden Visa later at AED 30k basic salary.
-   - Thailand: BOI Por.8/2568 — THB 75k/mo for engineers, THB 50k with a related degree; BOI companies streamline permits.
-5. **Remote EU/US roles** are mostly location-restricted; contractor/freelance is the workable model.
-6. **Credibility flags on the resume:** "200h/mo saved" and "99.9% uptime" from freelance work read as inflated; two-column layout with contact in header risks ATS parsing; "Hare Om." reads as an incomplete headline; education dates overlap first job; "Key Metrics" box reads as marketing.
+Condensed from a review of current postings in Bangkok, Dubai/Abu Dhabi, Berlin, and remote Asia/EU roles. Personal diagnosis kept offline; this file holds only what is reusable.
 
 ## Requirements matrix (LLM/agent application roles)
 | Requirement | Frequency | Now | After plan |
@@ -54,11 +38,5 @@
 ## Application order
 Thailand BOI/international → Dubai employer-sponsored → remote contractor (EU/US) → Germany Blue Card → Singapore (only if Shortage Occupation List or ~S$7,500+).
 
-## Realistic expectations after the plan
-- Thailand/Dubai: good odds of interviews; offers likely within 2–4 months of consistent applying (50–100 tailored applications).
-- Remote contractor: moderate odds; Laravel + AI combo attractive to small teams.
-- Germany/Singapore: low first-round odds; better after 6–12 months of AI work plus referrals.
-- Biggest boosters: get one project used by real users; ship an LLM feature at the current employer.
-
 ## Caveats
-Visa thresholds are 2025–2026 figures from official and law-firm sources; verify on MOM, anabin/ZAB, UAE ICP/GDRFA, and Thailand BOI before acting. COMPASS estimate depends on role, firm size, and degree authentication.
+Frequencies are estimates from a sample of postings in Sept 2026; individual companies vary. Visa and salary thresholds change yearly — verify on official portals before acting.
