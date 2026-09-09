@@ -1,6 +1,6 @@
 # AI Engineer Roadmap — 90 Days
 
-Started: 2026-09-09
+Setup day: 2026-09-09 · **Day 1: Mon 2026-09-14** · Day 90: Tue 2026-12-15 (93 calendar days, one rest weekend 13–15 Nov)
 Goal: become a credible candidate for LLM/agent application engineer roles (RAG, agents, LLM integration) by shipping three evaluated, deployed projects.
 
 ## Documents
@@ -8,7 +8,9 @@ Goal: become a credible candidate for LLM/agent application engineer roles (RAG,
 2. [3-month plan](02-3-month-plan.md) — weekly overview
 3. [90-day daily plan](03-90-day-daily-plan.md) — day-by-day tasks
 4. [Learning log](LEARNING.md) — one line per day
-5. [Weekly reviews](reviews/) — one file per week, from [the template](reviews/TEMPLATE.md)
+5. [Daily study guide](notes/DAILY-GUIDE.md) — all 90 days in order: what to read, what to build, when you can move on
+6. [Learning notes](notes/) — detailed notes by topic, each pre-seeded with the questions it must answer
+7. [Weekly reviews](reviews/) — one file per week, from [the template](reviews/TEMPLATE.md)
 
 ## Projects
 | Project | What | Repo | Live | Status |
@@ -51,6 +53,7 @@ Goal: become a credible candidate for LLM/agent application engineer roles (RAG,
 - **Daily:** one commit, prefixed `day-NN:`, plus a row in `LEARNING.md`.
 - **Weekly:** one GitHub Issue per week with the day checkboxes; closed Sunday with a file in `reviews/`.
 - **Projects:** code lives in its own repo (linked above); this repo holds notes, eval numbers, and interview stories.
+- **Notes:** open the matching file in `notes/` on the day you cover that topic; read its questions before the docs. Rebuild the index with `python3 notes/build_index.py`.
 
 ## Rules
 1. Commit every day.
