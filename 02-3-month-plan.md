@@ -123,6 +123,13 @@
 - "AI Engineering" by Chip Huyen — evals and RAG chapters only
 - pgvector README; Supabase vector guide
 
+**Videos — reference only** (reviewed in [04-resource-reviews.md](04-resource-reviews.md); use the part you are stuck on, never watch start to finish):
+- "Learn RAG From Scratch" (freeCodeCamp) — Week 3
+- "Docker Tutorial for Beginners [Full Course in 3 Hours]" — Day 5
+- 3Blue1Brown "Neural networks" series — concept backfill, buffer days only
+
+New resources go through [04-resource-reviews.md](04-resource-reviews.md) first. A new resource can replace one here; it cannot add a day.
+
 ## Budget
 Free tiers cover nearly everything (Supabase, Railway/Render, Langfuse, Cohere trial, AWS free tier). Plan ~$30–60 for API calls over three months (vision calls in Project 3 are the biggest item).
 

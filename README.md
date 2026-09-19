@@ -7,10 +7,11 @@ Goal: become a credible candidate for LLM/agent application engineer roles (RAG,
 1. [Market requirements & resume rules](01-resume-market-review.md) — what AI-engineer postings actually ask for
 2. [3-month plan](02-3-month-plan.md) — weekly overview
 3. [90-day daily plan](03-90-day-daily-plan.md) — day-by-day tasks
-4. [Learning log](LEARNING.md) — one line per day
-5. [Daily study guide](notes/DAILY-GUIDE.md) — all 90 days in order: what to read, what to build, when you can move on
-6. [Learning notes](notes/) — detailed notes by topic, each pre-seeded with the questions it must answer
-7. [Weekly reviews](reviews/) — one file per week, from [the template](reviews/TEMPLATE.md)
+4. [Resource reviews](04-resource-reviews.md) — videos and courses checked against the plan before they change it
+5. [Learning log](LEARNING.md) — one line per day
+6. [Daily study guide](notes/DAILY-GUIDE.md) — all 90 days in order: what to read, what to build, when you can move on
+7. [Learning notes](notes/) — detailed notes by topic, each pre-seeded with the questions it must answer
+8. [Weekly reviews](reviews/) — one file per week, from [the template](reviews/TEMPLATE.md)
 
 ## Projects
 | Project | What | Repo | Live | Status |

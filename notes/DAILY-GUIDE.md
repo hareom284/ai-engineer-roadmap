@@ -76,6 +76,8 @@ Each day names its note file in `notes/`. Open that file first and read its ques
 
 **Learn [30]** — Multi-stage Dockerfiles and layer caching. The rule: copy the lockfile and install dependencies *before* copying source, so code edits do not bust the dependency layer.
 
+*Optional reference:* "Docker Tutorial for Beginners [Full Course in 3 Hours]" (YouTube). Only jump to the part you are stuck on; do not watch all of it. See [resource review](../04-resource-reviews.md).
+
 **Build [90]**
 1. Multi-stage Dockerfile using `uv`, non-root user, `EXPOSE 8000`.
 2. `docker-compose.yml` with the API and a Postgres 16 service.
@@ -219,6 +221,8 @@ Then three LeetCode problems on hash maps.
 
 ### Day 15 — Mon 28 Sep — Ingestion with metadata
 **Note:** `03-rag/ingestion.md`
+
+*Optional reference for all of Week 3:* "Learn RAG From Scratch – Python AI Tutorial from a LangChain Engineer" (freeCodeCamp, 2h 33m). Watch the part that matches the day — indexing today, retrieval and re-ranking on Days 17–18 — not the whole thing at once. See [resource review](../04-resource-reviews.md).
 
 **Build**
 1. Ingest the FastAPI repo's `docs/` markdown *and* its `.py` source.
@@ -612,6 +616,8 @@ Three LeetCode problems.
 
 ### Days 57–60 — Mon 9 Nov to Thu 12 Nov — Buffer
 Finish anything that slipped. If genuinely on track: Langfuse dashboards, a cost-per-resolved-ticket chart, and start one LeetCode medium daily.
+
+If still on track after that: the **concept backfill** in [04-resource-reviews.md](../04-resource-reviews.md) — neural networks, tokens, transformers and attention, explained in plain words, written into `06-interview/concept-answers.md`.
 
 **Phase 2 checkpoint:** two live projects, an MCP server, two blog posts.
 
