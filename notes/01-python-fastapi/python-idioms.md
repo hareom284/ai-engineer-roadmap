@@ -1,18 +1,20 @@
 # Python idioms for a PHP engineer
 
-**Plan day:** Day 1 (Mon 14 Sep) · **Status:** `not-started`
+**Plan day:** Day 1 (Mon 14 Sep) · **Status:** `can-explain`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words
 _One paragraph for a senior engineer who has never used this. No jargon you cannot define._
 
+_(Collected from my own answers during the Day 1 session, 2026-09-19.)_
 
+In Python, `total: int` is only a label. Python doesn't check it when the code runs, so `"not a number"` gets in without an error, and the problem only shows up later, when I use the value. Never use `[]`, `{}` or `set()` as a default argument: Python creates the default value once, when the function is defined, not every time the function is called — so use `None` and create the list inside. Use comprehensions for short transformations and filtering; when the logic has multiple steps, side effects, error handling, or becomes hard to read, use a regular `for` loop. A `with` block is the replacement for try/finally: the cleanup always runs, even if there is an error.
 
 ## Must be able to answer
-- [ ] Why do type hints not raise at runtime, and what does that imply for anything crossing an API boundary?
-- [ ] When does a mutable default argument bite you, and what is the fix?
-- [ ] Rewrite an append loop as a comprehension. When is a comprehension the wrong choice?
-- [ ] What does a `with` block guarantee that try/finally does by hand?
+- [x] Why do type hints not raise at runtime, and what does that imply for anything crossing an API boundary?
+- [x] When does a mutable default argument bite you, and what is the fix?
+- [x] Rewrite an append loop as a comprehension. When is a comprehension the wrong choice?
+- [x] What does a `with` block guarantee that try/finally does by hand?
 
 ## Reference explanations
 _Explained with Claude, kept here to look back at. Still write your own answers above and in "In my own words"._
@@ -269,14 +271,28 @@ Closest Laravel idea: `DB::transaction(function () { ... })` — the framework c
 ## Gotchas / what bit me
 _Anything that cost you more than fifteen minutes. These become interview stories._
 
--
+- Ran a script and nothing printed, no error. The file wasn't saved — Python runs the file on disk, not what is in the editor. Fix: Cmd + S, and turned on Auto Save.
+- Computed results but forgot `print`, so the script ran silently. Always run the script myself and look at the output.
+- First answer to "why no error on the bad order?" was "Python is not strict like PHP". Wrong way round: Python *is* strict when you use a value (`"5" + 1` raises; PHP gives 6). It just doesn't check type hints.
 
 ## Minimal snippet
 _The smallest code that demonstrates the idea. Typed by you, not pasted._
 
-```python
+From `docuquery/scratch/03_dataclass.py`:
 
+```python
+from dataclasses import dataclass
+
+@dataclass
+class Order:
+    id: str
+    total: int
+    customer: str
+
+invalid_order = Order(id="2", total="not a number", customer="Bob")
+print(invalid_order)   # Order(id='2', total='not a number', customer='Bob') — no error
 ```
 
 ## Sources I actually used
--
+- `docuquery/scratch/01`–`05` practice scripts
+- "Reference explanations" section of this note

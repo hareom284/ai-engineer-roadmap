@@ -57,12 +57,12 @@ Fill each one in as you finish the matching topic, while it is fresh. Arriving a
 
 <!-- INDEX:START -->
 
-**0 of 46 topics at `can-explain`.**
+**1 of 46 topics at `can-explain`.**
 
 | Day | Date | Topic | Status |
 |---|---|---|---|
 | | | **01-python-fastapi** | |
-| 1 | Mon 14 Sep | [Python idioms for a PHP engineer](01-python-fastapi/python-idioms.md) |    `not-started` |
+| 1 | Mon 14 Sep | [Python idioms for a PHP engineer](01-python-fastapi/python-idioms.md) | ✅ `can-explain` |
 | 2 | Tue 15 Sep | [Pydantic v2](01-python-fastapi/pydantic.md) |    `not-started` |
 | 3 | Wed 16 Sep | [async / await and the event loop](01-python-fastapi/async.md) |    `not-started` |
 | 4 | Thu 17 Sep | [FastAPI core](01-python-fastapi/fastapi.md) |    `not-started` |
