@@ -1,6 +1,6 @@
 # Hybrid search and RRF
 
-**Plan day:** Day 17 (Wed 30 Sep) · **Status:** `not-started`
+**Plan day:** Day 17 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

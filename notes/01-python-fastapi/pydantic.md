@@ -1,6 +1,6 @@
 # Pydantic v2
 
-**Plan day:** Day 2 (Tue 15 Sep) · **Status:** `not-started`
+**Plan day:** Day 2 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

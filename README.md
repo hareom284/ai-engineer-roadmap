@@ -1,6 +1,6 @@
 # AI Engineer Roadmap — 90 Days
 
-Setup day: 2026-09-09 · **Day 1: Mon 2026-09-14** · Day 90: Tue 2026-12-15 (93 calendar days, one rest weekend 13–15 Nov)
+Setup day: 2026-09-09 · Day 1 started 2026-09-19 · **Progress is tracked by day number, not by calendar date** — real dates live in `LEARNING.md`.
 Goal: become a credible candidate for LLM/agent application engineer roles (RAG, agents, LLM integration) by shipping three evaluated, deployed projects.
 
 ## Documents

@@ -1,6 +1,6 @@
 # Checkpointing and threads
 
-**Plan day:** Day 33 (Fri 16 Oct) · **Status:** `not-started`
+**Plan day:** Day 33 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

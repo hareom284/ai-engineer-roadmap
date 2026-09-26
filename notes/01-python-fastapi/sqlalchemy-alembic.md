@@ -1,6 +1,6 @@
 # SQLAlchemy 2.0, Alembic, SSE
 
-**Plan day:** Day 6 (Sat 19 Sep) · **Status:** `not-started`
+**Plan day:** Day 6 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

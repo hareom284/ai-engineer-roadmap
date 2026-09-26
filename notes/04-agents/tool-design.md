@@ -1,6 +1,6 @@
 # Tool design and least privilege
 
-**Plan day:** Day 39 (Thu 22 Oct) · **Status:** `not-started`
+**Plan day:** Day 39 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

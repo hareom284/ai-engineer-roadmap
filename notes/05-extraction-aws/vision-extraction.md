@@ -1,6 +1,6 @@
 # Vision extraction
 
-**Plan day:** Day 62 (Tue 17 Nov) · **Status:** `not-started`
+**Plan day:** Day 62 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

@@ -1,6 +1,6 @@
 # Retrieval tuning
 
-**Plan day:** Day 26–27 (Fri 9 Oct – Sat 10 Oct) · **Status:** `not-started`
+**Plan day:** Day 26–27 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

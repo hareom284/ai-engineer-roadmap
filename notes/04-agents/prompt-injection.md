@@ -1,6 +1,6 @@
 # Prompt injection
 
-**Plan day:** Day 44 (Tue 27 Oct) · **Status:** `not-started`
+**Plan day:** Day 44 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

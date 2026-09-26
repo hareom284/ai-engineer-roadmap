@@ -1,6 +1,6 @@
 # Model routing and cost control
 
-**Plan day:** Day 47 (Fri 30 Oct) · **Status:** `not-started`
+**Plan day:** Day 47 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

@@ -1,6 +1,6 @@
 # Golden datasets
 
-**Plan day:** Day 22 (Mon 5 Oct) · **Status:** `not-started`
+**Plan day:** Day 22 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

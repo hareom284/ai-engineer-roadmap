@@ -1,6 +1,6 @@
 # LangGraph state graphs
 
-**Plan day:** Day 32 (Thu 15 Oct) · **Status:** `not-started`
+**Plan day:** Day 32 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

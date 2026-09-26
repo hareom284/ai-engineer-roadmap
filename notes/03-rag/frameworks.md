@@ -1,6 +1,6 @@
 # LangChain / LlamaIndex vs hand-rolled
 
-**Plan day:** Day 21 (Sun 4 Oct) · **Status:** `not-started`
+**Plan day:** Day 21 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

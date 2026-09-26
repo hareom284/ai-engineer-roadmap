@@ -1,6 +1,6 @@
 # Project structure and settings
 
-**Plan day:** Day 7 (Sun 20 Sep) · **Status:** `not-started`
+**Plan day:** Day 7 · **Status:** `not-started`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words

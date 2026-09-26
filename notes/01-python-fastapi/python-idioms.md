@@ -1,6 +1,6 @@
 # Python idioms for a PHP engineer
 
-**Plan day:** Day 1 (Mon 14 Sep) · **Status:** `can-explain`
+**Plan day:** Day 1 · **Status:** `can-explain`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words
