@@ -57,14 +57,14 @@ Fill each one in as you finish the matching topic, while it is fresh. Arriving a
 
 <!-- INDEX:START -->
 
-**2 of 46 topics at `can-explain`.**
+**3 of 46 topics at `can-explain`.**
 
 | Day | Topic | Status |
 |---|---|---|
 | | **01-python-fastapi** | |
 | 1 | [Python idioms for a PHP engineer](01-python-fastapi/python-idioms.md) | ✅ `can-explain` |
 | 2 | [Pydantic v2](01-python-fastapi/pydantic.md) | ✅ `can-explain` |
-| 3 | [async / await and the event loop](01-python-fastapi/async.md) |    `not-started` |
+| 3 | [async / await and the event loop](01-python-fastapi/async.md) | ✅ `can-explain` |
 | 4 | [FastAPI core](01-python-fastapi/fastapi.md) |    `not-started` |
 | 5 | [Docker + GitHub Actions](01-python-fastapi/docker-ci.md) |    `not-started` |
 | 6 | [SQLAlchemy 2.0, Alembic, SSE](01-python-fastapi/sqlalchemy-alembic.md) |    `not-started` |
