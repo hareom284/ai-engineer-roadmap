@@ -1,19 +1,19 @@
 # Docker + GitHub Actions
 
-**Plan day:** Day 5 · **Status:** `learning`
+**Plan day:** Day 5 · **Status:** `can-explain`
 _Status values: `not-started` → `learning` → `can-explain`. You are done when you can answer every question below out loud, without notes, in under two minutes each._
 
 ## In my own words
 _One paragraph for a senior engineer who has never used this. No jargon you cannot define._
 
-_(Written during the Day 5 session, 2026-10-04. Answer the three questions out loud before moving this to `can-explain`.)_
+_(My own answers from the Day 5 session, 2026-10-04: multi-stage keeps the runtime small; deps before source keeps the cache; block on failing tests and lint, warn on deprecations.)_
 
-A multi-stage build uses one image to **build** (it needs `uv`, compilers, caches) and a second clean image to **run** (it gets only the finished `.venv` and `src/`). The runtime image stays small — 275MB here — and ships no build tools for an attacker to use. Layer order is what makes rebuilds fast: `COPY pyproject.toml uv.lock README.md ./` and `uv sync` come **before** `COPY src/`, because dependencies change rarely and source changes constantly; put source first and every one-character edit re-downloads every package. CI runs the same two commands I run locally — `ruff check .` then `pytest -q`, lint first because it fails in seconds — and both block the merge.
+A multi-stage build uses one image to **build** (it needs `uv`, compilers, caches) and a second clean image to **run** (it gets only the finished `.venv` and `src/`). The runtime image stays small — 275MB here — and ships no build tools for an attacker to use. Layer order is what makes rebuilds fast: `COPY pyproject.toml uv.lock README.md ./` and `uv sync` come **before** `COPY src/`, because dependencies change rarely and source changes constantly; put source first and every one-character edit re-downloads every package. CI runs the same two commands I run locally — `ruff check .` then `pytest -q`, lint first because it fails in seconds — and both block the merge: a failing test means the code is wrong, and lint is worth blocking on precisely because `ruff --fix` repairs it in a second. Deprecation warnings only warn: they are a deadline, not a defect (`.dict()` and the Starlette test-client warning both still ran fine), so I fix them before the version bump rather than blocking a merge on them.
 
 ## Must be able to answer
-- [ ] Why multi-stage, and what belongs in each stage?
-- [ ] How do you order Dockerfile steps so dependency layers stay cached?
-- [ ] What should CI block a push on, and what should only warn?
+- [x] Why multi-stage, and what belongs in each stage?
+- [x] How do you order Dockerfile steps so dependency layers stay cached?
+- [x] What should CI block a push on, and what should only warn?
 
 ### Checks that prove it works
 | Check | Command | Expected |
