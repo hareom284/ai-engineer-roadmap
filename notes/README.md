@@ -66,7 +66,7 @@ Fill each one in as you finish the matching topic, while it is fresh. Arriving a
 | 2 | [Pydantic v2](01-python-fastapi/pydantic.md) | ✅ `can-explain` |
 | 3 | [async / await and the event loop](01-python-fastapi/async.md) | ✅ `can-explain` |
 | 4 | [FastAPI core](01-python-fastapi/fastapi.md) | ✅ `can-explain` |
-| 5 | [Docker + GitHub Actions](01-python-fastapi/docker-ci.md) |    `not-started` |
+| 5 | [Docker + GitHub Actions](01-python-fastapi/docker-ci.md) | 🟡 `learning` |
 | 6 | [SQLAlchemy 2.0, Alembic, SSE](01-python-fastapi/sqlalchemy-alembic.md) |    `not-started` |
 | 7 | [Project structure and settings](01-python-fastapi/project-structure.md) |    `not-started` |
 | | **02-llm-apis** | |
